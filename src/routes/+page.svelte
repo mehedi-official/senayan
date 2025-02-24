@@ -5,5 +5,5 @@
 
 <Header />
 <main>
-	<!-- <AboutUs /> -->
+	<AboutUs />
 </main>

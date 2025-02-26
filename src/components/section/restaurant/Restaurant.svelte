@@ -4,7 +4,7 @@
 	import { arrow_left, arrow_right, leaves, map_pin } from '@components/logos/Icons.svelte';
 </script>
 
-<section class="grid grid-cols-2">
+<section class="grid grid-cols-2 bg-white">
 	<section class=" p-15">
 		<section>
 			<div class="border border-[#D9D9D9] w-fit">
@@ -57,7 +57,7 @@
 		class="m-3 ml-0 background relative"
 	>
 		<!-- leaves -->
-		<div class=" absolute top-1/2 -translate-y-1/2 -translate-x-1/2">
+		<div class=" mix-blend-difference absolute top-1/2 -translate-y-1/2 -translate-x-1/2">
 			{@render leaves()}
 		</div>
 

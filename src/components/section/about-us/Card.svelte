@@ -16,7 +16,7 @@
 		<enhanced:img src={image} alt="food 1" class="w-full h-full object-cover" />
 
 		<div
-			class="absolute w-full grid gap-3 left-1/2 bottom-9 -translate-x-1/2 text-center text-white"
+			class="absolute overlay grid gap-3 left-1/2 bottom-2 pb-7 -translate-x-1/2 text-center text-white"
 		>
 			<p class="text-base/none font-medium tracking-tight text-white/80">{label}</p>
 			<h4 class="text-xl/none tracking-tight">{title}</h4>
@@ -32,5 +32,20 @@
 	h4 {
 		font-family: 'Garamond nova pro';
 		font-weight: 300;
+	}
+
+	.overlay {
+		width: calc(100% - 1rem);
+	}
+	.overlay::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		background: linear-gradient(rgba(0, 0, 0), rgba(0, 0, 0));
+		filter: blur(28px);
 	}
 </style>

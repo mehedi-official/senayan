@@ -57,7 +57,7 @@
 	</svg>
 {/snippet}
 
-{#snippet leaves(stroke: string = 'black')}
+{#snippet leaves(stroke: string = 'white')}
 	<svg
 		width="160"
 		height="159"

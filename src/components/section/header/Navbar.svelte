@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { arrow_down, globe } from '@components/logos/Icons.svelte';
 	import { logo } from '@components/logos/Logos.svelte';
 </script>
 
@@ -35,7 +36,9 @@
 		<div class=" -translate-x-1/2 w-52 h-11">{@render logo()}</div>
 
 		<div class="flex gap-6 items-center">
-			<a href="/">EN</a>
+			<a href="/" class="flex items-center gap-1"
+				><span>{@render globe()}</span> EN <span>{@render arrow_down()}</span></a
+			>
 			<a
 				href="/"
 				class="text-sm/none font-medium uppercase bg-white/10 transition duration-200 hover:bg-white/20 border border-white/50 py-3 px-6 rounded-full"

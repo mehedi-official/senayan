@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { createImageSet } from '$lib';
 	import restaurant from '$lib/images/about-us_background.jpg?enhanced';
-	import { leaves, map_pin } from '@components/logos/Icons.svelte';
+	import { arrow_left, arrow_right, leaves, map_pin } from '@components/logos/Icons.svelte';
 </script>
 
 <section class="grid grid-cols-2">
@@ -85,7 +85,7 @@
 			<div class="flex justify-between px-8 pt-7">
 				<button
 					class="flex text-white items-center justify-center rounded-full w-12 h-12 bg-white/20 border-white border"
-					>←</button
+					>{@render arrow_left('white')}</button
 				>
 
 				<!-- indicator -->
@@ -101,7 +101,7 @@
 
 				<button
 					class="flex text-white items-center justify-center rounded-full w-12 h-12 bg-white/20 border-white border"
-					>→</button
+					>{@render arrow_right('white')}</button
 				>
 			</div>
 		</section>

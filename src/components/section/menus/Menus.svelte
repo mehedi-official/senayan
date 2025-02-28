@@ -1,27 +1,36 @@
 <script>
 	import { arrow_left, arrow_right, atom } from '@components/logos/Icons.svelte';
-	import food from '$lib/images/food-1.jpg?enhanced';
+	import food_1 from '$lib/images/menu-1.avif?enhanced';
+	import food_2 from '$lib/images/menu-2.avif?enhanced';
+	import food_3 from '$lib/images/menu-3.avif?enhanced';
+	import food_4 from '$lib/images/menu-4.avif?enhanced';
+	import food_5 from '$lib/images/menu-5.jpg?enhanced';
+	import food_6 from '$lib/images/menu-6.jpg?enhanced';
 	import Card from './Card.svelte';
 
 	let card_data = [
 		{
-			image: food,
+			image: food_1,
 			heading: 'Pepes Ayam Daun Pisang',
 			description: 'Steamed chicken in banana leaf'
 		},
-		{ image: food, heading: 'Nasi Nanas Seafood', description: 'Pineapple rice with shrimp' },
+		{ image: food_2, heading: 'Nasi Nanas Seafood', description: 'Pineapple rice with shrimp' },
 		{
-			image: food,
+			image: food_3,
 			heading: 'Nasi Ayam Sambal Matah',
 			description: 'Grilled chicken with sambal matah'
 		},
 		{
-			image: food,
+			image: food_4,
 			heading: 'Nasi Kuning Komplit',
 			description: 'Turmeric rice with fried chicken'
 		},
-		{ image: food, heading: 'Otak-Otak Bakar', description: 'Grilled fish cake with peanut sauce' },
-		{ image: food, heading: 'Nasi Ayam Penyet', description: 'Crispy fried chicken with sambal' }
+		{
+			image: food_5,
+			heading: 'Otak-Otak Bakar',
+			description: 'Grilled fish cake with peanut sauce'
+		},
+		{ image: food_6, heading: 'Nasi Ayam Penyet', description: 'Crispy fried chicken with sambal' }
 	];
 </script>
 

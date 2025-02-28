@@ -3,8 +3,10 @@
 </script>
 
 <section class="bg-[#EBE6DA] pt-16 pb-16 lg:pb-0">
-	<h2 class="text-center text-[#E15E2C] text-[3.5rem]/none tracking-tight">
-		We wholeheartedly serve <br /> each of our customers
+	<h2
+		class="text-center px-4 text-[#E15E2C] mx-auto max-w-2xl text-4xl/none lg:text-[3.5rem]/none tracking-tight"
+	>
+		We wholeheartedly serve each of our customers
 	</h2>
 
 	<section class="hidden lg:flex justify-between px-8 pt-6 pb-12 mx-2 mt-16 bg-white">

@@ -59,7 +59,7 @@
 
 <section
 	style="--background-image: {createImageSet(bg_img.sources)}"
-	class="m-3 py-12 px-4 lg:px-12 grid lg:grid-cols-3 items-start gap-6 card-container"
+	class="my-3 mx-0 lg:mx-3 py-12 px-4 lg:px-12 grid lg:grid-cols-3 items-start gap-6 card-container"
 >
 	{#each card_data as data, i}
 		<Card {...data} index={i}></Card>

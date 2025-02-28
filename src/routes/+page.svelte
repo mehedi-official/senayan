@@ -15,3 +15,7 @@
 	<Customer />
 </main>
 <Footer />
+
+<svelte:head>
+	<title>Sate Khas Senayan | Indonesia's iconic dishes</title>
+</svelte:head>

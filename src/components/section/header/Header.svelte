@@ -13,7 +13,7 @@
 
 		<div class="px-4 lg:px-8 pt-40 grid lg:grid-cols-2 items-end">
 			<div class="hidden lg:block">
-				<div><img src="" alt="" />Hello</div>
+				<div><img src="" alt="" /></div>
 				<div><img src="" alt="" /></div>
 				<div><img src="" alt="" /></div>
 			</div>

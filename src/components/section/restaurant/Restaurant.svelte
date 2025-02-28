@@ -4,11 +4,11 @@
 	import { arrow_left, arrow_right, leaves, map_pin } from '@components/logos/Icons.svelte';
 </script>
 
-<section class="grid lg:grid-cols-2 bg-white">
+<section class="grid gap-12 lg:gap-0 lg:grid-cols-2 bg-white">
 	<section class=" py-15 px-4 lg:px-15">
 		<section>
-			<div class="border border-[#D9D9D9] w-fit">
-				<div class="py-6 pl-5 pr-7 grid gap-12 w-fit border-b border-[#D9D9D9]">
+			<div class="border border-[#D9D9D9] w-full lg:w-fit">
+				<div class="py-6 pl-5 pr-7 grid gap-12 w-full lg:w-fit border-b border-[#D9D9D9]">
 					<p class=" text-base/none font-medium tracking-tight">Weekdays ( Monday until Friday )</p>
 
 					<div class="grid gap-4">
@@ -28,8 +28,10 @@
 			</div>
 		</section>
 
-		<article class="grid gap-4 mt-36">
-			<h2 class=" text-5xl/snug tracking-tighter">SATE & SEAFOOD SENAYAN BATAVIA PIK</h2>
+		<article class="grid gap-4 mt-18 lg:mt-36">
+			<h2 class="text-4xl/snug lg:text-5xl/snug tracking-tighter">
+				SATE & SEAFOOD SENAYAN BATAVIA PIK
+			</h2>
 			<p class="text-sm/normal font-medium text-[#848484]">
 				Located in Batavia PIK Pantai Maju, Sate Khas Senayan offers authentic Indonesian cuisine in
 				a relaxing seaside setting. Close to various attractions in PIK, it's the perfect spot for a
@@ -65,7 +67,7 @@
 
 		<section class=" absolute left-0 bottom-8 w-full">
 			<!-- restaurant card -->
-			<div class="flex justify-center">
+			<div class="flex justify-center px-4 lg:px-0">
 				<div class="p-2 bg-white max-w-100 grid grid-cols-[1.2fr_0.8fr]">
 					<div class="grid gap-7">
 						<div class="grid gap-3">

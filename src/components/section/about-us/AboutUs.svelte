@@ -38,8 +38,8 @@
 	];
 </script>
 
-<section class="p-14 grid grid-cols-[4fr_1fr]">
-	<div class="grid grid-cols-[1fr_2fr]">
+<section class="py-14 px-4 lg:px-14 grid gap-4 lg:gap-0 lg:grid-cols-[4fr_1fr]">
+	<div class="grid gap-4 lg:gap-0 lg:grid-cols-[1fr_2fr]">
 		<h2 class=" text-3xl/none font-normal tracking-tight">
 			This is not just an <br /> ordinary restaurant
 		</h2>
@@ -52,14 +52,14 @@
 
 	<a
 		href="/"
-		class="justify-self-end flex h-fit text-base/none text-black font-medium py-3.5 px-5 border border-[#DADADA] transition-all duration-200 hover:bg-gray-100 rounded-full uppercase"
+		class="lg:justify-self-end flex w-max h-fit text-base/none text-black font-medium py-3.5 px-5 border border-[#DADADA] transition-all duration-200 hover:bg-gray-100 rounded-full uppercase"
 		>View History</a
 	>
 </section>
 
 <section
 	style="--background-image: {createImageSet(bg_img.sources)}"
-	class="m-3 p-12 grid grid-cols-3 items-start gap-6 card-container"
+	class="m-3 py-12 px-4 lg:px-12 grid lg:grid-cols-3 items-start gap-6 card-container"
 >
 	{#each card_data as data, i}
 		<Card {...data} index={i}></Card>

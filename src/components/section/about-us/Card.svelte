@@ -25,8 +25,10 @@
 </div>
 
 <style>
-	.card {
-		margin-top: var(--index, 0px);
+	@media (width > 450px) {
+		.card {
+			margin-top: var(--index, 0px);
+		}
 	}
 	h3,
 	h4 {

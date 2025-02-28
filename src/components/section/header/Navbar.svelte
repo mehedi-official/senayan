@@ -3,7 +3,7 @@
 	import { logo } from '@components/logos/Logos.svelte';
 </script>
 
-<nav class="grid grid-cols-2 border-b border-white/15 py-4 px-14">
+<nav class="hidden lg:grid grid-cols-2 border-b border-white/15 py-4 px-14">
 	<ul class="flex gap-5 items-center text-sm/none font-medium text-white/60">
 		<li
 			class="flex h-full items-center hover:cursor-pointer transition-transform duration-250 ease-out hover:-translate-y-1.5 text-white"

@@ -2,7 +2,7 @@
 	let { image, heading, description } = $props();
 </script>
 
-<div class="card min-w-fit pt-10 pb-4 px-14 border-b border-r border-[#C0BCAD]">
+<div class="card min-w-fit pt-10 pb-4 px-4 lg:px-14 border-b lg:border-r border-[#C0BCAD]">
 	<div class="h-[28rem] border-2 border-white">
 		<enhanced:img src={image} alt="" class="w-full h-full" />
 	</div>

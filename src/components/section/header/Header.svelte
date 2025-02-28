@@ -7,12 +7,12 @@
 <header class="header pb-8 text-white">
 	<Navbar />
 	<section class="pt-14">
-		<h1 class="mx-14 text-[3.5rem] leading-none tracking-tight max-w-96">
+		<h1 class="mx-4 lg:mx-14 text-[3.5rem] leading-none tracking-tight max-w-96">
 			Authentic foods, where tradition meets craft
 		</h1>
 
-		<div class="px-8 pt-40 grid grid-cols-2 items-end">
-			<div>
+		<div class="px-4 lg:px-8 pt-40 grid lg:grid-cols-2 items-end">
+			<div class="hidden lg:block">
 				<div><img src="" alt="" />Hello</div>
 				<div><img src="" alt="" /></div>
 				<div><img src="" alt="" /></div>

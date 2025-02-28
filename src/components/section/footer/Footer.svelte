@@ -4,8 +4,8 @@
 </script>
 
 <footer>
-	<section class="grid grid-cols-2 border-y border-[#D9D9D9]">
-		<section class="p-12 flex flex-col gap-4">
+	<section class="grid lg:grid-cols-2 border-y border-[#D9D9D9]">
+		<section class="py-12 px-4 lg:px-12 flex flex-col gap-4">
 			<div class="flex items-center gap-8">
 				<div>{@render logo_black()}</div>
 				<div>{@render sarirasa()}</div>
@@ -23,7 +23,9 @@
 			>
 		</section>
 
-		<section class="flex p-12 justify-between border-l border-[#D9D9D9]">
+		<section
+			class="grid grid-cols-2 gap-y-12 lg:flex py-12 px-4 lg:px-12 justify-between border-l border-[#D9D9D9]"
+		>
 			<ul class="grid gap-4">
 				<h5 class=" font-semibold text-lg/none tracking-tighter text-black">Menu</h5>
 				<li
@@ -139,8 +141,8 @@
 		</section>
 	</section>
 
-	<section class="py-12 grid grid-cols-2">
-		<div class="px-12 flex items-center gap-6">
+	<section class="py-12 grid gap-6 lg:grid-cols-2">
+		<div class="px-4 lg:px-12 flex items-center justify-between lg:justify-start gap-6">
 			<a
 				href="/"
 				class="font-normal hover:underline hover:text-black underline-offset-2 text-sm/none text-[#696969] tracking-tight"
@@ -163,7 +165,7 @@
 			>
 		</div>
 
-		<div class="px-12">
+		<div class="px-4 lg:px-12">
 			<p class="font-normal text-sm/normal text-[#696969]">
 				This website is created from dribbble shot. © {new Date().getFullYear()} All rights reserved
 				by Sate Khas Senayan &

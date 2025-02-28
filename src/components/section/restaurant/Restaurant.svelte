@@ -4,8 +4,8 @@
 	import { arrow_left, arrow_right, leaves, map_pin } from '@components/logos/Icons.svelte';
 </script>
 
-<section class="grid grid-cols-2 bg-white">
-	<section class=" p-15">
+<section class="grid lg:grid-cols-2 bg-white">
+	<section class=" py-15 px-4 lg:px-15">
 		<section>
 			<div class="border border-[#D9D9D9] w-fit">
 				<div class="py-6 pl-5 pr-7 grid gap-12 w-fit border-b border-[#D9D9D9]">
@@ -54,10 +54,12 @@
 
 	<section
 		style="--background-image: {createImageSet(restaurant.sources)}"
-		class="m-3 ml-0 background relative"
+		class="lg:m-3 lg:ml-0 h-132 lg:h-auto background relative"
 	>
 		<!-- leaves -->
-		<div class=" mix-blend-difference absolute top-1/2 -translate-y-1/2 -translate-x-1/2">
+		<div
+			class=" mix-blend-difference absolute left-1/2 lg:left-0 lg:top-1/2 -translate-y-1/2 -translate-x-1/2"
+		>
 			{@render leaves()}
 		</div>
 
